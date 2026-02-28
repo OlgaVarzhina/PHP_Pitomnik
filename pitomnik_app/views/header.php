@@ -12,10 +12,3 @@
     <h1>Наши питомцы</h1>
     <p>Найдите своего идеального друга</p>
 </header>
-
-<div class="filter-container">
-    <button class="filter-btn active" data-filter="all">Все</button>
-    <button class="filter-btn" data-filter="dog">Собаки</button>
-    <button class="filter-btn" data-filter="cat">Кошки</button>
-    <button class="filter-btn" data-filter="other">Другие</button>
-</div>

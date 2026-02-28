@@ -3,29 +3,26 @@
 
 class Controller_Main extends Controller {
 
-    function __construct() {
-        parent::__construct(); // Вызываем конструктор родителя, чтобы создать View
-        $this->model = new Model_Main(); // Создаем модель
+    public function __construct() {
+        parent::__construct();
+        // Инициализируем модель главной страницы
+        $this->model = new Model_Main();
     }
 
-    public function action_index() {
-        // 1. Получаем данные из базы через модель
-        $species_list = $this->model->get_species();
-        
-        $title = "Мир Хвостиков — Каталог";
+    /**
+     * Главная страница (Каталог)
+     * @param $id - параметр из роутера (для главной обычно null)
+     */
+    public function action_index($id = null) {
+        // Получаем массив данных из модели
+        $pets = $this->model->get_all_pets();
 
-        // 2. Передаем данные в header (например, для заголовка или меню)
+        // Данные для мета-тегов
+        $title = "Наши питомцы — Приют «Мир Хвостиков»";
+
+        // Подключаем части страницы (Layout)
+        // Переменная $pets автоматически станет доступна в main_view.php
         include __DIR__ . '/../views/header.php';
-        
-        // 3. Выводим список видов для проверки прямо перед каталогом
-        echo "<div style='background: #eee; padding: 10px; margin: 20px;'>";
-        echo "<strong>Проверка БД:</strong> Найдено видов животных: " . count($species_list);
-        echo "<ul>";
-        foreach ($species_list as $item) {
-            echo "<li>ID: " . $item['id'] . " — " . $item['name'] . "</li>";
-        }
-        echo "</ul></div>";
-
         include __DIR__ . '/../views/main_view.php';
         include __DIR__ . '/../views/footer.php';
     }

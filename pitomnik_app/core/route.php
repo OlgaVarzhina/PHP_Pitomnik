@@ -3,52 +3,58 @@
 
 class Route {
     public static function start() {
-        // Логика разбора URL (контроллер, экшн)
-        // По умолчанию идем на Main
+        // 1. Настройки по умолчанию
         $controller_name = 'Main';
         $action_name = 'index';
+        $id = null;
 
-        // Разбираем строку запроса (например, /staff/index)
-        $routes = explode('/', $_SERVER['REQUEST_URI']);
+        // 2. Разбираем URL
+        // trim($url, '/') убирает лишние слэши по краям
+        $routes = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
 
-        // Получаем имя контроллера
+        // Получаем контроллер (например, localhost/pet -> pet)
+        if (!empty($routes[0])) {
+            $controller_name = ucfirst($routes[0]);
+        }
+
+        // Получаем экшен (например, localhost/pet/view -> view)
         if (!empty($routes[1])) {
-            $controller_name = $routes[1];
+            $action_name = $routes[1];
         }
 
-        // Получаем имя экшена
+        // Получаем ID (например, localhost/pet/view/1 -> 1)
         if (!empty($routes[2])) {
-            $action_name = $routes[2];
+            $id = $routes[2];
         }
 
-        // Добавляем префиксы
-        $model_name = 'Model_' . $controller_name;
+        // 3. Формируем имена
         $controller_class_name = 'Controller_' . $controller_name;
         $action_method_name = 'action_' . $action_name;
+        $model_name = 'Model_' . $controller_name;
 
-        // Подцепляем файл модели (если есть)
-        $model_file = strtolower($model_name) . '.php';
-        $model_path = __DIR__ . "/../models/" . $model_file;
+        // 4. Подключаем модель (если есть)
+        $model_path = __DIR__ . "/../models/" . strtolower($model_name) . ".php";
         if (file_exists($model_path)) {
-            include $model_path;
+            include_once $model_path;
         }
 
-        // Подцепляем файл контроллера
-        $controller_file = strtolower($controller_class_name) . '.php';
-        $controller_path = __DIR__ . "/../controllers/" . $controller_file;
+        // 5. Подключаем контроллер
+        $controller_path = __DIR__ . "/../controllers/" . strtolower($controller_class_name) . ".php";
 
         if (file_exists($controller_path)) {
-            include $controller_path;
+            include_once $controller_path;
             
-            // Создаем контроллер и вызываем экшен
             $controller = new $controller_class_name;
+            
             if (method_exists($controller, $action_method_name)) {
-                $controller->$action_method_name();
+                // ВЫЗЫВАЕМ ОДИН РАЗ с передачей ID
+                $controller->$action_method_name($id);
             } else {
-                die("Action $action_method_name не найден!");
+                die("Ошибка: Метод $action_method_name не найден в классе $controller_class_name");
             }
         } else {
-            die("Контроллер $controller_class_name не найден по пути $controller_path");
+            // Если контроллер не найден, можно перенаправить на 404
+            die("Ошибка: Файл контроллера не найден по пути $controller_path");
         }
     }
 }
