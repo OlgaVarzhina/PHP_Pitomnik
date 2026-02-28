@@ -1,0 +1,7 @@
+#ДляРоутера
+RewriteEngine On
+# Не трогаем реальные файлы и папки (картинки, стили)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# Все остальное шлем в index.php
+RewriteRule ^(.*)$ index.php [L,QSA]
