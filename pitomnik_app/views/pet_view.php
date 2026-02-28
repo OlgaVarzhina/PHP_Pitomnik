@@ -1,72 +1,59 @@
 <?php
 /**
- * Шаблон детальной страницы животного
+ * Детальная карточка питомца
  * Переменная $pet передается из Controller_Pet
  */
 ?>
 
-<div class="pet-detail-container">
-    <a href="/" class="back-link">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M19 12H5M12 19l-7-7 7-7"/>
-        </svg>
-        Назад в каталог
-    </a>
+<div class="pet-detail-wrapper">
+    <div class="container">
+        <a href="/" class="back-link">← Вернуться к списку хвостиков</a>
 
-    <article class="pet-card-large">
-        <div class="pet-image-large">
-            <?php 
-                // Проверяем наличие фото, если нет - ставим заглушку
-                $image = (!empty($pet['image_path'])) ? $pet['image_path'] : '/static/images/no-photo.jpg'; 
-            ?>
-            <img src="<?= $image ?>" alt="Питомец: <?= htmlspecialchars($pet['name']) ?>">
-            
-            <div class="status-badge <?= htmlspecialchars($pet['status']) ?>">
-                <?php 
-                    if ($pet['status'] === 'available') echo 'Ищет дом';
-                    elseif ($pet['status'] === 'on_hold') echo 'На лечении';
-                    else echo 'Уже в семье';
-                ?>
-            </div>
-        </div>
-
-        <div class="pet-content-large">
-            <header class="pet-header">
-                <span class="species-tag"><?= htmlspecialchars($pet['species_name']) ?></span>
-                <h1><?= htmlspecialchars($pet['name']) ?></h1>
-                <p class="breed-text"><?= htmlspecialchars($pet['breed_name']) ?></p>
-            </header>
-
-            <div class="characteristics-grid">
-                <div class="char-item">
-                    <span class="char-label">Возраст</span>
-                    <span class="char-value"><?= (int)$pet['age'] ?> года/лет</span>
-                </div>
-                <div class="char-item">
-                    <span class="char-label">Пол</span>
-                    <span class="char-value">Не указан</span> </div>
-                <div class="char-item">
-                    <span class="char-label">Здоровье</span>
-                    <span class="char-value">Привит, здоров</span>
+        <article class="pet-detail-card">
+            <div class="pet-detail-image">
+                <?php $img = !empty($pet['image_path']) ? $pet['image_path'] : '/static/images/no-photo.jpg'; ?>
+                <img src="<?= $img ?>" alt="<?= htmlspecialchars($pet['name']) ?>">
+                
+                <div class="pet-status-label <?= htmlspecialchars($pet['status']) ?>">
+                    <?= ($pet['status'] === 'available') ? 'Ищет семью' : 'На реабилитации' ?>
                 </div>
             </div>
 
-            <div class="pet-description">
-                <h3>О питомце</h3>
-                <p>
-                    <?= !empty($pet['description']) 
-                        ? nl2br(htmlspecialchars($pet['description'])) 
-                        : "Этот хвостик пока ничего о себе не рассказал, но он очень ждет встречи с вами!" 
-                    ?>
-                </p>
-            </div>
+            <div class="pet-detail-info">
+                <header>
+                    <span class="species-label"><?= htmlspecialchars($pet['species_name']) ?></span>
+                    <h1>Меня зовут <?= htmlspecialchars($pet['name']) ?></h1>
+                    <p class="breed-title"><?= htmlspecialchars($pet['breed_name']) ?></p>
+                </header>
 
-            <div class="pet-actions">
-                <button class="adopt-btn-large" onclick="alert('Спасибо! Мы свяжемся с вами для организации встречи.')">
-                    Познакомиться с <?= htmlspecialchars($pet['name']) ?>
-                </button>
-                <p class="help-text">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-label">Возраст</span>
+                        <span class="stat-value"><?= (int)$pet['age'] ?> года/лет</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-label">Здоровье</span>
+                        <span class="stat-value">Отличное</span>
+                    </div>
+                </div>
+
+                <div class="full-description">
+                    <h3>Моя история</h3>
+                    <p>
+                        <?= !empty($pet['description']) 
+                            ? nl2br(htmlspecialchars($pet['description'])) 
+                            : "Этот хвостик пока стесняется рассказать свою историю, но он очень хочет найти любящих хозяев." 
+                        ?>
+                    </p>
+                </div>
+
+                <div class="detail-actions">
+                    <button class="btn-primary-large" onclick="alert('Мы получили ваш запрос! Наш куратор свяжется с вами в ближайшее время.')">
+                        Приехать и познакомиться
+                    </button>
+                    <p class="notice">Находясь у нас, питомец получает лучший уход, но дом ничем не заменить.</p>
+                </div>
             </div>
-        </div>
-    </article>
+        </article>
+    </div>
 </div>

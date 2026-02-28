@@ -334,6 +334,39 @@ PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
 [Sun Mar 01 00:34:43.135831 2026] [mpm_winnt:notice] [pid 23164:tid 448] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
 [Sun Mar 01 00:34:43.135831 2026] [core:notice] [pid 23164:tid 448] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Sun Mar 01 00:34:43.139831 2026] [mpm_winnt:notice] [pid 23164:tid 448] AH00418: Parent: Created child process 21860
-PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+Apache server shutdown initiated...
+eady loaded in Unknown on line 0
 [Sun Mar 01 00:34:43.623804 2026] [mpm_winnt:notice] [pid 21860:tid 428] AH00354: Child: Starting 64 worker threads.
 [Sun Mar 01 00:34:45.107651 2026] [mpm_winnt:notice] [pid 1688:tid 472] AH00364: Child: All worker threads have exited.
+[Sun Mar 01 01:02:21.681721 2026] [php:error] [pid 21860:tid 1152] [client ::1:57975] PHP Fatal error:  Uncaught Error: Call to undefined method Model_Main::get_all_pets() in D:\\Files\\projects\\PHP_project\\pitomnik_app\\controllers\\controller_main.php:23\nStack trace:\n#0 D:\\Files\\projects\\PHP_project\\pitomnik_app\\core\\route.php(51): Controller_Main->action_index(NULL)\n#1 D:\\Files\\projects\\PHP_project\\pitomnik_app\\bootstrap.php(35): Route::start()\n#2 D:\\Files\\projects\\PHP_project\\static\\index.php(3): require_once('D:\\\\Files\\\\projec...')\n#3 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\controllers\\controller_main.php on line 23
+[Sun Mar 01 01:02:22.480318 2026] [php:error] [pid 21860:tid 1152] [client ::1:57975] PHP Fatal error:  Uncaught Error: Call to undefined method Model_Main::get_all_pets() in D:\\Files\\projects\\PHP_project\\pitomnik_app\\controllers\\controller_main.php:23\nStack trace:\n#0 D:\\Files\\projects\\PHP_project\\pitomnik_app\\core\\route.php(51): Controller_Main->action_index(NULL)\n#1 D:\\Files\\projects\\PHP_project\\pitomnik_app\\bootstrap.php(35): Route::start()\n#2 D:\\Files\\projects\\PHP_project\\static\\index.php(3): require_once('D:\\\\Files\\\\projec...')\n#3 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\controllers\\controller_main.php on line 23
+[Sun Mar 01 01:26:20.313549 2026] [mpm_winnt:notice] [pid 23164:tid 448] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 01 01:26:22.314498 2026] [mpm_winnt:notice] [pid 21860:tid 428] AH00364: Child: All worker threads have exited.
+[Sun Mar 01 01:26:22.334269 2026] [mpm_winnt:notice] [pid 23164:tid 448] AH00430: Parent: Child process 21860 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sun Mar 01 01:26:50.827443 2026] [mpm_winnt:notice] [pid 19436:tid 456] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sun Mar 01 01:26:50.827443 2026] [mpm_winnt:notice] [pid 19436:tid 456] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sun Mar 01 01:26:50.827443 2026] [core:notice] [pid 19436:tid 456] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Mar 01 01:26:50.831081 2026] [mpm_winnt:notice] [pid 19436:tid 456] AH00418: Parent: Created child process 19176
+Apache server shutdown initiated...
+eady loaded in Unknown on line 0
+[Sun Mar 01 01:26:51.309358 2026] [mpm_winnt:notice] [pid 19176:tid 464] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 01 01:28:53.336833 2026] [mpm_winnt:notice] [pid 19436:tid 456] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 01 01:28:55.337957 2026] [mpm_winnt:notice] [pid 19176:tid 464] AH00364: Child: All worker threads have exited.
+[Sun Mar 01 01:28:55.358442 2026] [mpm_winnt:notice] [pid 19436:tid 456] AH00430: Parent: Child process 19176 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sun Mar 01 01:28:57.967549 2026] [mpm_winnt:notice] [pid 25560:tid 424] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sun Mar 01 01:28:57.968551 2026] [mpm_winnt:notice] [pid 25560:tid 424] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sun Mar 01 01:28:57.968551 2026] [core:notice] [pid 25560:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Mar 01 01:28:57.971552 2026] [mpm_winnt:notice] [pid 25560:tid 424] AH00418: Parent: Created child process 23164
+Apache server shutdown initiated...
+eady loaded in Unknown on line 0
+[Sun Mar 01 01:28:58.458124 2026] [mpm_winnt:notice] [pid 23164:tid 428] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 01 01:31:37.976694 2026] [mpm_winnt:notice] [pid 25560:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 01 01:31:39.977439 2026] [mpm_winnt:notice] [pid 23164:tid 428] AH00364: Child: All worker threads have exited.
+[Sun Mar 01 01:31:39.997729 2026] [mpm_winnt:notice] [pid 25560:tid 424] AH00430: Parent: Child process 23164 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sun Mar 01 01:31:43.839057 2026] [mpm_winnt:notice] [pid 22276:tid 452] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sun Mar 01 01:31:43.839057 2026] [mpm_winnt:notice] [pid 22276:tid 452] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sun Mar 01 01:31:43.839057 2026] [core:notice] [pid 22276:tid 452] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Mar 01 01:31:43.842717 2026] [mpm_winnt:notice] [pid 22276:tid 452] AH00418: Parent: Created child process 22548

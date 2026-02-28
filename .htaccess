@@ -1,7 +1,8 @@
-#ДляРоутера
 RewriteEngine On
-# Не трогаем реальные файлы и папки (картинки, стили)
+RewriteBase /PHP_project/
+# Если это не реальный файл и не папка
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-# Все остальное шлем в index.php
+
+# Перенаправляем всё на index.php
 RewriteRule ^(.*)$ index.php [L,QSA]
