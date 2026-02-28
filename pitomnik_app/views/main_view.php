@@ -1,25 +1,3 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мир Хвостиков — Каталог питомника</title>
-    <link rel="stylesheet" href="\css\styles.css">
-</head>
-<body>
-
-<header>
-    <h1>Наши питомцы</h1>
-    <p>Найдите своего идеального друга</p>
-</header>
-
-<div class="filter-container">
-    <button class="filter-btn active" data-filter="all">Все</button>
-    <button class="filter-btn" data-filter="dog">Собаки</button>
-    <button class="filter-btn" data-filter="cat">Кошки</button>
-    <button class="filter-btn" data-filter="other">Другие</button>
-</div>
-
 <main class="catalog" id="catalog">
     <div class="pet-card" data-category="dog">
         <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=300&q=80" alt="Собака">
@@ -51,7 +29,3 @@
         </div>
     </div>
 </main>
-
-<script src="\js\script.js"></script>
-</body>
-</html>

@@ -36,3 +36,179 @@ pm_winnt:notice] [pid 16760:tid 444] AH00354: Child: Starting 64 worker threads.
 [Sat Feb 28 14:09:54.987737 2026] [core:notice] [pid 4876:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Sat Feb 28 14:09:54.989738 2026] [mpm_winnt:notice] [pid 4876:tid 424] AH00418: Parent: Created child process 7332
 [Sat Feb 28 14:09:55.640693 2026] [mpm_winnt:notice] [pid 7332:tid 448] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 28 22:56:40.165754 2026] [mpm_winnt:notice] [pid 4876:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 28 22:56:42.168455 2026] [mpm_winnt:notice] [pid 7332:tid 448] AH00364: Child: All worker threads have exited.
+[Sat Feb 28 22:56:42.206464 2026] [mpm_winnt:notice] [pid 4876:tid 424] AH00430: Parent: Child process 7332 exited successfully.
+[Sat Feb 28 22:57:44.677610 2026] [mpm_winnt:notice] [pid 4316:tid 408] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sat Feb 28 22:57:44.677610 2026] [mpm_winnt:notice] [pid 4316:tid 408] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sat Feb 28 22:57:44.677610 2026] [core:notice] [pid 4316:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Feb 28 22:57:44.679610 2026] [mpm_winnt:notice] [pid 4316:tid 408] AH00418: Parent: Created child process 6812
+[Sat Feb 28 22:57:45.169720 2026] [mpm_winnt:notice] [pid 6812:tid 476] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 28 23:21:12.774978 2026] [mpm_winnt:notice] [pid 4316:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 28 23:21:14.776176 2026] [mpm_winnt:notice] [pid 6812:tid 476] AH00364: Child: All worker threads have exited.
+[Sat Feb 28 23:21:14.794149 2026] [mpm_winnt:notice] [pid 4316:tid 408] AH00430: Parent: Child process 6812 exited successfully.
+[Sat Feb 28 23:21:20.838315 2026] [mpm_winnt:notice] [pid 17260:tid 424] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sat Feb 28 23:21:20.838837 2026] [mpm_winnt:notice] [pid 17260:tid 424] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sat Feb 28 23:21:20.838837 2026] [core:notice] [pid 17260:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Feb 28 23:21:20.842487 2026] [mpm_winnt:notice] [pid 17260:tid 424] AH00418: Parent: Created child process 17184
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 17184:tid 440] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 28 23:21:38.876261 2026] [mpm_winnt:notice] [pid 17260:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 28 23:21:40.876535 2026] [mpm_winnt:notice] [pid 17184:tid 440] AH00364: Child: All worker threads have exited.
+[Sat Feb 28 23:21:40.894738 2026] [mpm_winnt:notice] [pid 17260:tid 424] AH00430: Parent: Child process 17184 exited successfully.
+[Sat Feb 28 23:21:43.835442 2026] [mpm_winnt:notice] [pid 7060:tid 448] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sat Feb 28 23:21:43.835960 2026] [mpm_winnt:notice] [pid 7060:tid 448] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sat Feb 28 23:21:43.835960 2026] [core:notice] [pid 7060:tid 448] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Feb 28 23:21:43.839563 2026] [mpm_winnt:notice] [pid 7060:tid 448] AH00418: Parent: Created child process 7120
+[Sat Feb 28 23:21:44.311321 2026] [mpm_winnt:notice] [pid 7120:tid 452] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 28 23:30:33.097807 2026] [php:error] [pid 7120:tid 1160] [client ::1:54269] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:30:33.579870 2026] [php:error] [pid 7120:tid 1160] [client ::1:54269] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:30:34.544391 2026] [php:error] [pid 7120:tid 1160] [client ::1:54269] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:30:35.426500 2026] [php:error] [pid 7120:tid 1160] [client ::1:54269] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:30:35.707963 2026] [php:error] [pid 7120:tid 1160] [client ::1:54269] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:30:35.940571 2026] [php:error] [pid 7120:tid 1160] [client ::1:54269] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:30:36.192599 2026] [php:error] [pid 7120:tid 1160] [client ::1:54269] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:30:37.549471 2026] [php:error] [pid 7120:tid 1160] [client ::1:54269] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:30:37.834045 2026] [php:error] [pid 7120:tid 1160] [client ::1:54269] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:30:38.035509 2026] [php:error] [pid 7120:tid 1160] [client ::1:54269] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:32:29.117904 2026] [php:error] [pid 7120:tid 1160] [client ::1:54354] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:32:29.581840 2026] [php:error] [pid 7120:tid 1160] [client ::1:54354] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:32:29.865914 2026] [php:error] [pid 7120:tid 1160] [client ::1:54354] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:32:30.179728 2026] [php:error] [pid 7120:tid 1160] [client ::1:54354] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:32:30.386566 2026] [php:error] [pid 7120:tid 1160] [client ::1:54354] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:32:30.557042 2026] [php:error] [pid 7120:tid 1160] [client ::1:54354] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:32:30.756970 2026] [php:error] [pid 7120:tid 1160] [client ::1:54354] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:32:30.962106 2026] [php:error] [pid 7120:tid 1160] [client ::1:54354] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php:7\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\pitomnik_app\\views\\index.php on line 7
+[Sat Feb 28 23:34:13.644132 2026] [mpm_winnt:notice] [pid 7060:tid 448] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 28 23:34:32.599446 2026] [mpm_winnt:notice] [pid 7120:tid 452] AH00364: Child: All worker threads have exited.
+[Sat Feb 28 23:34:32.618291 2026] [mpm_winnt:notice] [pid 7060:tid 448] AH00430: Parent: Child process 7120 exited successfully.
+[Sat Feb 28 23:34:46.607870 2026] [mpm_winnt:notice] [pid 16988:tid 440] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sat Feb 28 23:34:46.608401 2026] [mpm_winnt:notice] [pid 16988:tid 440] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sat Feb 28 23:34:46.608401 2026] [core:notice] [pid 16988:tid 440] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Feb 28 23:34:46.611526 2026] [mpm_winnt:notice] [pid 16988:tid 440] AH00418: Parent: Created child process 7064
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 7064:tid 452] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 28 23:35:45.375277 2026] [mpm_winnt:notice] [pid 16988:tid 440] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 28 23:35:51.894055 2026] [mpm_winnt:notice] [pid 7064:tid 452] AH00364: Child: All worker threads have exited.
+[Sat Feb 28 23:35:55.800926 2026] [core:warn] [pid 13292:tid 428] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 28 23:35:55.836782 2026] [mpm_winnt:notice] [pid 13292:tid 428] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sat Feb 28 23:35:55.836782 2026] [mpm_winnt:notice] [pid 13292:tid 428] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sat Feb 28 23:35:55.836782 2026] [core:notice] [pid 13292:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Feb 28 23:35:55.840694 2026] [mpm_winnt:notice] [pid 13292:tid 428] AH00418: Parent: Created child process 17288
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 17288:tid 452] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 28 23:35:57.213081 2026] [authz_core:error] [pid 17288:tid 1152] [client ::1:54597] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/
+[Sat Feb 28 23:35:57.231002 2026] [authz_core:error] [pid 17288:tid 1152] [client ::1:54597] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/.well-known
+[Sat Feb 28 23:35:57.317646 2026] [authz_core:error] [pid 17288:tid 1152] [client ::1:54597] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:35:57.586689 2026] [authz_core:error] [pid 17288:tid 1152] [client ::1:54597] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/
+[Sat Feb 28 23:35:57.606794 2026] [authz_core:error] [pid 17288:tid 1152] [client ::1:54597] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/.well-known
+[Sat Feb 28 23:35:57.700928 2026] [authz_core:error] [pid 17288:tid 1152] [client ::1:54597] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:35:58.072686 2026] [authz_core:error] [pid 17288:tid 1152] [client ::1:54597] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/
+[Sat Feb 28 23:35:58.098414 2026] [authz_core:error] [pid 17288:tid 1152] [client ::1:54597] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/.well-known
+[Sat Feb 28 23:35:58.194239 2026] [authz_core:error] [pid 17288:tid 1152] [client ::1:54597] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:36:09.800991 2026] [authz_core:error] [pid 17288:tid 1144] [client ::1:54598] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/
+[Sat Feb 28 23:36:09.819459 2026] [authz_core:error] [pid 17288:tid 1144] [client ::1:54598] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/.well-known
+[Sat Feb 28 23:36:09.910407 2026] [authz_core:error] [pid 17288:tid 1144] [client ::1:54598] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:36:10.256484 2026] [authz_core:error] [pid 17288:tid 1144] [client ::1:54598] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/
+[Sat Feb 28 23:36:10.281012 2026] [authz_core:error] [pid 17288:tid 1144] [client ::1:54598] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/.well-known
+[Sat Feb 28 23:36:10.370921 2026] [authz_core:error] [pid 17288:tid 1144] [client ::1:54598] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:36:10.526624 2026] [authz_core:error] [pid 17288:tid 1144] [client ::1:54598] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/
+[Sat Feb 28 23:36:10.544629 2026] [authz_core:error] [pid 17288:tid 1144] [client ::1:54598] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/.well-known
+[Sat Feb 28 23:36:10.635303 2026] [authz_core:error] [pid 17288:tid 1144] [client ::1:54598] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:36:10.702404 2026] [authz_core:error] [pid 17288:tid 1144] [client ::1:54598] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/
+[Sat Feb 28 23:36:10.719236 2026] [authz_core:error] [pid 17288:tid 1144] [client ::1:54598] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/.well-known
+[Sat Feb 28 23:36:10.808971 2026] [authz_core:error] [pid 17288:tid 1144] [client ::1:54598] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:36:12.590116 2026] [mpm_winnt:notice] [pid 13292:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 28 23:36:19.620930 2026] [core:warn] [pid 17032:tid 448] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 28 23:36:19.656309 2026] [mpm_winnt:notice] [pid 17032:tid 448] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sat Feb 28 23:36:19.656309 2026] [mpm_winnt:notice] [pid 17032:tid 448] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sat Feb 28 23:36:19.656309 2026] [core:notice] [pid 17032:tid 448] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Feb 28 23:36:19.660351 2026] [mpm_winnt:notice] [pid 17032:tid 448] AH00418: Parent: Created child process 15804
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 15804:tid 468] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 28 23:36:20.665739 2026] [authz_core:error] [pid 17288:tid 1152] [client ::1:54609] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/pitomnik_app/views/
+[Sat Feb 28 23:36:20.709648 2026] [mpm_winnt:notice] [pid 17288:tid 452] AH00364: Child: All worker threads have exited.
+[Sat Feb 28 23:36:49.799727 2026] [mpm_winnt:notice] [pid 17032:tid 448] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 28 23:36:51.800757 2026] [mpm_winnt:notice] [pid 15804:tid 468] AH00364: Child: All worker threads have exited.
+[Sat Feb 28 23:36:51.819283 2026] [mpm_winnt:notice] [pid 17032:tid 448] AH00430: Parent: Child process 15804 exited successfully.
+[Sat Feb 28 23:36:54.293426 2026] [mpm_winnt:notice] [pid 13368:tid 428] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sat Feb 28 23:36:54.293426 2026] [mpm_winnt:notice] [pid 13368:tid 428] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sat Feb 28 23:36:54.293426 2026] [core:notice] [pid 13368:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Feb 28 23:36:54.297730 2026] [mpm_winnt:notice] [pid 13368:tid 428] AH00418: Parent: Created child process 17500
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 17500:tid 448] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 28 23:36:55.517900 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/
+[Sat Feb 28 23:36:55.536795 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/.well-known
+[Sat Feb 28 23:36:55.628052 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:36:56.095344 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/
+[Sat Feb 28 23:36:56.119776 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/.well-known
+[Sat Feb 28 23:36:56.216263 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:36:56.432040 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/
+[Sat Feb 28 23:36:56.454817 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/.well-known
+[Sat Feb 28 23:36:56.554670 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:36:56.693007 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/
+[Sat Feb 28 23:36:56.718840 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/.well-known
+[Sat Feb 28 23:36:56.815044 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:36:56.944781 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/
+[Sat Feb 28 23:36:56.964369 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/.well-known
+[Sat Feb 28 23:36:57.044915 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:36:57.152327 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/
+[Sat Feb 28 23:36:57.169387 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/.well-known
+[Sat Feb 28 23:36:57.249442 2026] [authz_core:error] [pid 17500:tid 1152] [client ::1:54653] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/favicon.ico, referer: http://localhost/
+[Sat Feb 28 23:36:59.893919 2026] [mpm_winnt:notice] [pid 13368:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 28 23:37:06.572526 2026] [authz_core:error] [pid 17500:tid 1144] [client ::1:54654] AH01630: client denied by server configuration: D:/Files/projects/PHP_project/
+[Sat Feb 28 23:37:06.610821 2026] [mpm_winnt:notice] [pid 17500:tid 448] AH00364: Child: All worker threads have exited.
+[Sat Feb 28 23:37:16.651610 2026] [core:warn] [pid 11064:tid 432] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 28 23:37:16.687747 2026] [mpm_winnt:notice] [pid 11064:tid 432] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sat Feb 28 23:37:16.687747 2026] [mpm_winnt:notice] [pid 11064:tid 432] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sat Feb 28 23:37:16.687747 2026] [core:notice] [pid 11064:tid 432] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Feb 28 23:37:16.691924 2026] [mpm_winnt:notice] [pid 11064:tid 432] AH00418: Parent: Created child process 17340
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 17340:tid 432] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 28 23:40:24.423728 2026] [mpm_winnt:notice] [pid 11064:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 28 23:40:34.152479 2026] [mpm_winnt:notice] [pid 17340:tid 432] AH00364: Child: All worker threads have exited.
+[Sat Feb 28 23:40:37.417775 2026] [core:warn] [pid 13348:tid 432] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 28 23:40:37.453163 2026] [mpm_winnt:notice] [pid 13348:tid 432] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sat Feb 28 23:40:37.453163 2026] [mpm_winnt:notice] [pid 13348:tid 432] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sat Feb 28 23:40:37.453163 2026] [core:notice] [pid 13348:tid 432] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Feb 28 23:40:37.457164 2026] [mpm_winnt:notice] [pid 13348:tid 432] AH00418: Parent: Created child process 17292
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 17292:tid 452] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 28 23:47:16.873806 2026] [php:warn] [pid 17292:tid 1144] [client ::1:55138] PHP Warning:  require_once(D:\\Files\\projects\\PHP_project\\static/../application/bootstrap.php): Failed to open stream: No such file or directory in D:\\Files\\projects\\PHP_project\\static\\index.php on line 3
+[Sat Feb 28 23:47:16.873806 2026] [php:error] [pid 17292:tid 1144] [client ::1:55138] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\\Files\\projects\\PHP_project\\static/../application/bootstrap.php' (include_path='.;C:\\php\\pear') in D:\\Files\\projects\\PHP_project\\static\\index.php:3\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\static\\index.php on line 3
+[Sat Feb 28 23:47:17.538399 2026] [php:warn] [pid 17292:tid 1144] [client ::1:55138] PHP Warning:  require_once(D:\\Files\\projects\\PHP_project\\static/../application/bootstrap.php): Failed to open stream: No such file or directory in D:\\Files\\projects\\PHP_project\\static\\index.php on line 3
+[Sat Feb 28 23:47:17.538413 2026] [php:error] [pid 17292:tid 1144] [client ::1:55138] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\\Files\\projects\\PHP_project\\static/../application/bootstrap.php' (include_path='.;C:\\php\\pear') in D:\\Files\\projects\\PHP_project\\static\\index.php:3\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\static\\index.php on line 3
+[Sat Feb 28 23:47:17.899254 2026] [php:warn] [pid 17292:tid 1144] [client ::1:55138] PHP Warning:  require_once(D:\\Files\\projects\\PHP_project\\static/../application/bootstrap.php): Failed to open stream: No such file or directory in D:\\Files\\projects\\PHP_project\\static\\index.php on line 3
+[Sat Feb 28 23:47:17.899254 2026] [php:error] [pid 17292:tid 1144] [client ::1:55138] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\\Files\\projects\\PHP_project\\static/../application/bootstrap.php' (include_path='.;C:\\php\\pear') in D:\\Files\\projects\\PHP_project\\static\\index.php:3\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\static\\index.php on line 3
+[Sat Feb 28 23:47:18.133364 2026] [php:warn] [pid 17292:tid 1144] [client ::1:55138] PHP Warning:  require_once(D:\\Files\\projects\\PHP_project\\static/../application/bootstrap.php): Failed to open stream: No such file or directory in D:\\Files\\projects\\PHP_project\\static\\index.php on line 3
+[Sat Feb 28 23:47:18.133364 2026] [php:error] [pid 17292:tid 1144] [client ::1:55138] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\\Files\\projects\\PHP_project\\static/../application/bootstrap.php' (include_path='.;C:\\php\\pear') in D:\\Files\\projects\\PHP_project\\static\\index.php:3\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\static\\index.php on line 3
+[Sat Feb 28 23:47:18.355036 2026] [php:warn] [pid 17292:tid 1144] [client ::1:55138] PHP Warning:  require_once(D:\\Files\\projects\\PHP_project\\static/../application/bootstrap.php): Failed to open stream: No such file or directory in D:\\Files\\projects\\PHP_project\\static\\index.php on line 3
+[Sat Feb 28 23:47:18.355036 2026] [php:error] [pid 17292:tid 1144] [client ::1:55138] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\\Files\\projects\\PHP_project\\static/../application/bootstrap.php' (include_path='.;C:\\php\\pear') in D:\\Files\\projects\\PHP_project\\static\\index.php:3\nStack trace:\n#0 {main}\n  thrown in D:\\Files\\projects\\PHP_project\\static\\index.php on line 3
+[Sat Feb 28 23:51:16.886719 2026] [mpm_winnt:notice] [pid 13348:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 28 23:51:27.839606 2026] [core:warn] [pid 17028:tid 424] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 28 23:51:27.919192 2026] [mpm_winnt:notice] [pid 17028:tid 424] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sat Feb 28 23:51:27.919192 2026] [mpm_winnt:notice] [pid 17028:tid 424] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sat Feb 28 23:51:27.919192 2026] [core:notice] [pid 17028:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Feb 28 23:51:27.923033 2026] [mpm_winnt:notice] [pid 17028:tid 424] AH00418: Parent: Created child process 16376
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 16376:tid 428] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 28 23:51:29.121871 2026] [mpm_winnt:notice] [pid 17292:tid 452] AH00364: Child: All worker threads have exited.
+[Sat Feb 28 23:52:27.603640 2026] [mpm_winnt:notice] [pid 17028:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 28 23:52:29.604667 2026] [mpm_winnt:notice] [pid 16376:tid 428] AH00364: Child: All worker threads have exited.
+[Sat Feb 28 23:52:29.623765 2026] [mpm_winnt:notice] [pid 17028:tid 424] AH00430: Parent: Child process 16376 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sat Feb 28 23:52:31.654883 2026] [mpm_winnt:notice] [pid 18960:tid 424] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sat Feb 28 23:52:31.655884 2026] [mpm_winnt:notice] [pid 18960:tid 424] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sat Feb 28 23:52:31.655884 2026] [core:notice] [pid 18960:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Feb 28 23:52:31.659727 2026] [mpm_winnt:notice] [pid 18960:tid 424] AH00418: Parent: Created child process 17064
+Apache server shutdown initiated...
+eady loaded in Unknown on line 0
+[Sat Feb 28 23:52:32.145163 2026] [mpm_winnt:notice] [pid 17064:tid 440] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 28 23:53:45.345771 2026] [mpm_winnt:notice] [pid 18960:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 28 23:53:47.346149 2026] [mpm_winnt:notice] [pid 17064:tid 440] AH00364: Child: All worker threads have exited.
+[Sat Feb 28 23:53:47.364525 2026] [mpm_winnt:notice] [pid 18960:tid 424] AH00430: Parent: Child process 17064 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sat Feb 28 23:53:52.305974 2026] [mpm_winnt:notice] [pid 18624:tid 424] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sat Feb 28 23:53:52.306489 2026] [mpm_winnt:notice] [pid 18624:tid 424] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sat Feb 28 23:53:52.306489 2026] [core:notice] [pid 18624:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Feb 28 23:53:52.309623 2026] [mpm_winnt:notice] [pid 18624:tid 424] AH00418: Parent: Created child process 1688
