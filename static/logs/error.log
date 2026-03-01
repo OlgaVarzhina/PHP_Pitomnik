@@ -378,3 +378,13 @@ PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
 [Sun Mar 01 07:49:12.765763 2026] [mpm_winnt:notice] [pid 4968:tid 420] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
 [Sun Mar 01 07:49:12.765763 2026] [core:notice] [pid 4968:tid 420] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Sun Mar 01 07:49:12.777741 2026] [mpm_winnt:notice] [pid 4968:tid 420] AH00418: Parent: Created child process 6152
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sun Mar 01 07:49:13.382762 2026] [mpm_winnt:notice] [pid 6152:tid 428] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 01 07:57:42.537898 2026] [mpm_winnt:notice] [pid 4968:tid 420] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 01 07:57:44.540396 2026] [mpm_winnt:notice] [pid 6152:tid 428] AH00364: Child: All worker threads have exited.
+[Sun Mar 01 07:57:44.557602 2026] [mpm_winnt:notice] [pid 4968:tid 420] AH00430: Parent: Child process 6152 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sun Mar 01 14:15:32.909632 2026] [mpm_winnt:notice] [pid 4892:tid 404] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sun Mar 01 14:15:32.909632 2026] [mpm_winnt:notice] [pid 4892:tid 404] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sun Mar 01 14:15:32.909632 2026] [core:notice] [pid 4892:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Mar 01 14:15:32.911633 2026] [mpm_winnt:notice] [pid 4892:tid 404] AH00418: Parent: Created child process 7316
