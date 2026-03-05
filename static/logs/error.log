@@ -388,3 +388,100 @@ PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
 [Sun Mar 01 14:15:32.909632 2026] [mpm_winnt:notice] [pid 4892:tid 404] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
 [Sun Mar 01 14:15:32.909632 2026] [core:notice] [pid 4892:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Sun Mar 01 14:15:32.911633 2026] [mpm_winnt:notice] [pid 4892:tid 404] AH00418: Parent: Created child process 7316
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sun Mar 01 14:15:34.203304 2026] [mpm_winnt:notice] [pid 7316:tid 432] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 01 15:36:26.470501 2026] [mpm_winnt:notice] [pid 4892:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 01 15:36:28.472736 2026] [mpm_winnt:notice] [pid 7316:tid 432] AH00364: Child: All worker threads have exited.
+[Sun Mar 01 15:36:28.491236 2026] [mpm_winnt:notice] [pid 4892:tid 404] AH00430: Parent: Child process 7316 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sun Mar 01 20:37:03.065511 2026] [mpm_winnt:notice] [pid 4932:tid 444] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Sun Mar 01 20:37:03.065511 2026] [mpm_winnt:notice] [pid 4932:tid 444] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Sun Mar 01 20:37:03.065511 2026] [core:notice] [pid 4932:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Mar 01 20:37:03.067511 2026] [mpm_winnt:notice] [pid 4932:tid 444] AH00418: Parent: Created child process 7468
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sun Mar 01 20:37:03.890235 2026] [mpm_winnt:notice] [pid 7468:tid 452] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 02 00:19:10.433558 2026] [mpm_winnt:notice] [pid 4932:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 02 00:19:12.438717 2026] [mpm_winnt:notice] [pid 7468:tid 452] AH00364: Child: All worker threads have exited.
+[Mon Mar 02 00:19:12.458716 2026] [mpm_winnt:notice] [pid 4932:tid 444] AH00430: Parent: Child process 7468 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Mon Mar 02 20:05:58.128870 2026] [mpm_winnt:notice] [pid 4736:tid 404] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Mon Mar 02 20:05:58.128870 2026] [mpm_winnt:notice] [pid 4736:tid 404] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Mon Mar 02 20:05:58.128870 2026] [core:notice] [pid 4736:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Mar 02 20:05:58.130872 2026] [mpm_winnt:notice] [pid 4736:tid 404] AH00418: Parent: Created child process 6936
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Mon Mar 02 20:05:58.903282 2026] [mpm_winnt:notice] [pid 6936:tid 428] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 03 00:30:55.138523 2026] [mpm_winnt:notice] [pid 4736:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 03 00:30:57.142820 2026] [mpm_winnt:notice] [pid 6936:tid 428] AH00364: Child: All worker threads have exited.
+[Tue Mar 03 00:30:57.159895 2026] [mpm_winnt:notice] [pid 4736:tid 404] AH00430: Parent: Child process 6936 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Mar 03 19:25:57.136148 2026] [mpm_winnt:notice] [pid 4752:tid 136] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Tue Mar 03 19:25:57.136148 2026] [mpm_winnt:notice] [pid 4752:tid 136] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Tue Mar 03 19:25:57.136148 2026] [core:notice] [pid 4752:tid 136] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Mar 03 19:25:57.138149 2026] [mpm_winnt:notice] [pid 4752:tid 136] AH00418: Parent: Created child process 7312
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Mar 03 19:25:57.910770 2026] [mpm_winnt:notice] [pid 7312:tid 456] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 04 00:31:14.223541 2026] [mpm_winnt:notice] [pid 4752:tid 136] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 04 00:31:16.226129 2026] [mpm_winnt:notice] [pid 7312:tid 456] AH00364: Child: All worker threads have exited.
+[Wed Mar 04 00:31:16.248680 2026] [mpm_winnt:notice] [pid 4752:tid 136] AH00430: Parent: Child process 7312 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Wed Mar 04 18:18:08.230966 2026] [mpm_winnt:notice] [pid 4972:tid 460] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Wed Mar 04 18:18:08.230966 2026] [mpm_winnt:notice] [pid 4972:tid 460] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Wed Mar 04 18:18:08.230966 2026] [core:notice] [pid 4972:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Mar 04 18:18:08.232966 2026] [mpm_winnt:notice] [pid 4972:tid 460] AH00418: Parent: Created child process 7448
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Wed Mar 04 18:18:09.044639 2026] [mpm_winnt:notice] [pid 7448:tid 420] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 05 00:23:26.967082 2026] [mpm_winnt:notice] [pid 4972:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 05 00:23:28.970397 2026] [mpm_winnt:notice] [pid 7448:tid 420] AH00364: Child: All worker threads have exited.
+[Thu Mar 05 00:23:28.992303 2026] [mpm_winnt:notice] [pid 4972:tid 460] AH00430: Parent: Child process 7448 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Mar 05 18:06:21.528234 2026] [mpm_winnt:notice] [pid 4496:tid 168] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Thu Mar 05 18:06:21.528234 2026] [mpm_winnt:notice] [pid 4496:tid 168] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Mar 05 18:06:21.528234 2026] [core:notice] [pid 4496:tid 168] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 05 18:06:21.528234 2026] [mpm_winnt:notice] [pid 4496:tid 168] AH00418: Parent: Created child process 6184
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Mar 05 18:06:22.724081 2026] [mpm_winnt:notice] [pid 6184:tid 420] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 05 21:50:22.814150 2026] [core:alert] [pid 6184:tid 1156] [client ::1:63384] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:22.882049 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63385] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/pet/view/6
+[Thu Mar 05 21:50:24.145941 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63387] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:24.952862 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63388] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=
+[Thu Mar 05 21:50:24.982809 2026] [core:alert] [pid 6184:tid 1156] [client ::1:63389] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:26.991569 2026] [core:alert] [pid 6184:tid 1156] [client ::1:63391] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=
+[Thu Mar 05 21:50:27.025685 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63392] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:27.564427 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63393] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=
+[Thu Mar 05 21:50:27.594292 2026] [core:alert] [pid 6184:tid 1156] [client ::1:63394] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:27.950088 2026] [core:alert] [pid 6184:tid 1156] [client ::1:63395] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=
+[Thu Mar 05 21:50:27.979517 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63396] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:28.345477 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63397] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=
+[Thu Mar 05 21:50:28.376252 2026] [core:alert] [pid 6184:tid 1156] [client ::1:63398] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:28.657254 2026] [core:alert] [pid 6184:tid 1156] [client ::1:63399] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=
+[Thu Mar 05 21:50:28.688267 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63400] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:38.025999 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63413] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=
+[Thu Mar 05 21:50:38.059958 2026] [core:alert] [pid 6184:tid 1156] [client ::1:63414] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:38.378993 2026] [core:alert] [pid 6184:tid 1156] [client ::1:63415] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=
+[Thu Mar 05 21:50:38.410186 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63416] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:38.609630 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63417] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=
+[Thu Mar 05 21:50:38.643144 2026] [core:alert] [pid 6184:tid 1156] [client ::1:63418] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:38.819334 2026] [core:alert] [pid 6184:tid 1156] [client ::1:63419] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=
+[Thu Mar 05 21:50:38.850238 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63420] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:39.011175 2026] [core:alert] [pid 6184:tid 1172] [client ::1:63421] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=
+[Thu Mar 05 21:50:39.048776 2026] [core:alert] [pid 6184:tid 1156] [client ::1:63422] D:/Files/projects/PHP_project/static/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/
+[Thu Mar 05 21:50:49.070474 2026] [mpm_winnt:notice] [pid 4496:tid 168] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 05 21:50:51.072633 2026] [mpm_winnt:notice] [pid 6184:tid 420] AH00364: Child: All worker threads have exited.
+[Thu Mar 05 21:50:51.093304 2026] [mpm_winnt:notice] [pid 4496:tid 168] AH00430: Parent: Child process 6184 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Mar 05 21:50:56.643546 2026] [mpm_winnt:notice] [pid 14932:tid 428] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Thu Mar 05 21:50:56.643546 2026] [mpm_winnt:notice] [pid 14932:tid 428] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Mar 05 21:50:56.644078 2026] [core:notice] [pid 14932:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 05 21:50:56.647758 2026] [mpm_winnt:notice] [pid 14932:tid 428] AH00418: Parent: Created child process 17028
+Apache server shutdown initiated...
+eady loaded in Unknown on line 0
+[Thu Mar 05 21:50:57.166205 2026] [mpm_winnt:notice] [pid 17028:tid 432] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 05 21:51:01.009570 2026] [core:error] [pid 17028:tid 1120] [client ::1:63467] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://localhost/
+[Thu Mar 05 21:51:46.817963 2026] [mpm_winnt:notice] [pid 14932:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 05 21:51:48.818761 2026] [mpm_winnt:notice] [pid 17028:tid 432] AH00364: Child: All worker threads have exited.
+[Thu Mar 05 21:51:48.846115 2026] [mpm_winnt:notice] [pid 14932:tid 428] AH00430: Parent: Child process 17028 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Mar 05 21:51:51.144087 2026] [mpm_winnt:notice] [pid 1456:tid 428] AH00455: Apache/2.4.66 (Win64) PHP/8.5.1 configured -- resuming normal operations
+[Thu Mar 05 21:51:51.144087 2026] [mpm_winnt:notice] [pid 1456:tid 428] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Mar 05 21:51:51.144087 2026] [core:notice] [pid 1456:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Mar 05 21:51:51.148081 2026] [mpm_winnt:notice] [pid 1456:tid 428] AH00418: Parent: Created child process 6748

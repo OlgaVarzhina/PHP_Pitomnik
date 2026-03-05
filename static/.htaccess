@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /PHP_project/
+#RewriteBase /PHP_project/
 # Если это не реальный файл и не папка
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
