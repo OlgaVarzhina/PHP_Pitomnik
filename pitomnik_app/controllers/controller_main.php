@@ -18,7 +18,7 @@ class Controller_Main extends Controller {
         $pets = $this->model->get_all_pets();
 
         // Данные для мета-тегов
-        $title = "Наши питомцы — Приют «Мир Хвостиков»";
+        $title = "Наши питомцы — Приют «Лапоухий Дом»";
 
         // Подключаем части страницы (Layout)
         // Переменная $pets автоматически станет доступна в main_view.php
