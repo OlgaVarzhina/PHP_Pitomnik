@@ -17,8 +17,8 @@
         
         <nav class="main-nav">
             <a href="/">Каталог</a>
-            <a href="info/stories">Счастливые истории</a>
-            <a href="info/contacts">Контакты</a>
+            <a href="/info/stories">Счастливые истории</a>
+            <a href="/info/contacts">Контакты</a>
         </nav>
 
         <div class="header-actions">

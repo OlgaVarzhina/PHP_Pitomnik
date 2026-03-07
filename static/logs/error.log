@@ -516,3 +516,5 @@ PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
 [Sat Mar 07 09:29:05.378363 2026] [mpm_winnt:notice] [pid 4764:tid 424] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
 [Sat Mar 07 09:29:05.378363 2026] [core:notice] [pid 4764:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Sat Mar 07 09:29:05.379363 2026] [mpm_winnt:notice] [pid 4764:tid 424] AH00418: Parent: Created child process 7208
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sat Mar 07 09:29:06.075399 2026] [mpm_winnt:notice] [pid 7208:tid 456] AH00354: Child: Starting 64 worker threads.
