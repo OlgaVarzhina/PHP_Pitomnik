@@ -14,13 +14,90 @@ body {
     background-color: var(--bg);
     color: var(--text);
     margin: 0;
-    padding: 20px;
 }
 
-/* --- ШАПКА --- */
-header {
-    text-align: center;
+/* Общие контейнеры */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.main-header {
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+}
+
+.logo-icon { font-size: 2rem; }
+.logo-text { font-weight: 800; font-size: 1.4rem; color: var(--primary); }
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--text);
+    margin: 0 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.main-nav a:hover { color: var(--primary); }
+
+.btn-donate {
+    background: #ff7675;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-donate:hover { background: #d63031; box-shadow: 0 4px 12px rgba(214, 48, 49, 0.3); }
+
+/* Footer Styles */
+.main-footer {
+    background: #2d3436;
+    color: #dfe6e9;
+    padding: 60px 0 20px;
+    margin-top: 60px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr;
+    gap: 40px;
     margin-bottom: 40px;
+}
+
+.footer-nav a {
+    display: block;
+    color: #b2bec3;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #636e72;
+    padding-top: 20px;
+    font-size: 0.9rem;
 }
 
 /* --- ФИЛЬТРАЦИЯ (Твои оригинальные фичи) --- */
@@ -28,6 +105,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 15px;
+    margin-top:5%;
     margin-bottom: 30px;
     flex-wrap: wrap; /* Чтобы на мобилках кнопки не вылезали за экран */
 }
@@ -127,45 +205,83 @@ header {
     color: white;
 }
 
-/* --- ДЕТАЛЬНАЯ СТРАНИЦА (Адаптив) --- */
-.pet-detail-card {
-    display: flex;
-    background: white;
-    border-radius: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-    overflow: hidden;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-}
 
-.pet-detail-image {
-    flex: 1;
-    min-width: 400px;
-}
+/* Информационные страницы*/
+.page-content { padding: 60px 20px; min-height: 70vh; }
+.subtitle { color: #636e72; margin-bottom: 40px; }
 
-.pet-detail-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+/* Контакты */
+.contacts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
 
-.pet-detail-info {
-    flex: 1.2;
-    padding: 40px;
-}
+/* Истории */
+.stories-list { display: flex; flex-direction: column; gap: 30px; }
+.story-card { display: flex; background: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+.story-card img { width: 300px; height: 200px; object-fit: cover; }
+.story-text { padding: 25px; }
+.story-date { font-size: 0.8rem; color: #b2bec3; }
 
-/* --- МОБИЛЬНАЯ АДАПТИВНОСТЬ --- */
+/* Гайд */
+.guide-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 40px; }
+.step { background: #fff; padding: 30px; border-radius: 15px; position: relative; border-top: 4px solid var(--primary); }
+.step-num { position: absolute; top: -15px; left: 20px; background: var(--primary); color: #fff; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+
+
+/* --- БЛОК АДАПТИВНОСТИ (Добавить в конец файла) --- */
+
+/* 1. Общие правки для мобилок */
 @media (max-width: 768px) {
-    .catalog {
-        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    body {
+        padding: 10px; /* Уменьшаем внешние поля, чтобы не съедать место */
     }
-    
+
+    .header-content {
+        flex-direction: column; /* Логотип и меню встают друг под друга */
+        text-align: center;
+        gap: 15px;
+    }
+
+    .main-nav {
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+    /* Карточки историй: картинка сверху, текст снизу */
+    .story-card {
+        flex-direction: column;
+    }
+
+    .story-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Детальная страница: картинка сверху */
     .pet-detail-card {
         flex-direction: column;
     }
-    
+
     .pet-detail-image {
-        min-width: 100%;
-        height: 300px;
+        width: 100%;
+        min-height: 250px;
     }
+
+    /* Футер и Контакты в одну колонку */
+    .footer-grid, .contacts-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+/* 2. Гибкость для каталога (чтобы карточки не вылезали) */
+.catalog {
+    display: grid;
+    /* Это свойство само решит: 1, 2 или 3 колонки в зависимости от ширины */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important; 
+    gap: 25px;
+}
+
+/* 3. Фикс для картинок (чтобы не распирали блоки) */
+img {
+    max-width: 100%;
+    height: auto;
 }
